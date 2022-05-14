@@ -18,3 +18,5 @@ everything with **(HW)** is from the homework
 - Drones-Website-(NOT READY YET): https://wael35nl.github.io/hyf-html-exercises/week-2/1.Drones-Website/
 - GIT exercise-**(HW)**: https://github.com/wael35nl/favorite-cmd-commands
 - Responsive-website-**(HW)**: https://wael35nl.github.io/hyf-html-exercises/week-2/3.Responsive-website/
+
+### week 3
