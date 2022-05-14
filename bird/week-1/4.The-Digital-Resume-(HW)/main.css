@@ -1,0 +1,108 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: lightgray;
+}
+
+h1, h2, p {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    text-decoration: underline;
+}
+
+p {
+    text-decoration: none;
+    width: 90%;
+    margin: auto;
+}
+
+/* ID section*/
+
+.container {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: white;
+    border-bottom: 5px dashed goldenrod;
+}
+
+.li-section-end {
+    margin-bottom: 41px;
+}
+
+#last-li {
+    display: inline-flex;
+}
+
+hr {
+    width: 90%;
+    border-radius: 90%;
+    margin : 50px auto;
+}
+
+/* Articles */
+
+.dark {
+    background-color: darkgray;
+}
+
+.light {
+    background-color: lightgray;
+}
+
+.container-2 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    width: 90%;
+    margin: 50px auto;
+    text-align: center;
+    background-color: white;
+    border-bottom: 5px dashed goldenrod;
+}
+
+th {
+    padding: 10px 0;
+}
+
+td {
+    height: 100px;
+    border: 3px solid gray;
+}
+
+.background-1 {
+    background-image: url(laptop.jpg);
+}
+
+.background-2 {
+    background-image: url(books.jpg);
+}
+
+.background-3 {
+    background-image: url(MachineOperator.jpg);
+}
+
+/* Footer */
+
+footer {
+    width: 90%;
+    margin: auto;
+    color: purple;
+}
+
+footer ul {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content: space-around;
+    list-style-type: none;
+    font-size: x-large;
+    font-weight: bolder;
+    font-style: italic;
+    line-height: 35px;
+}
+
+footer ul span {
+    font-weight: lighter;
+    color: black;
+}

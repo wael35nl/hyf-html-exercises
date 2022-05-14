@@ -1,0 +1,16 @@
+body {
+    background-color: rgb(90, 136, 211);
+    font-family: Verdana, sans-serif;
+    font-size: x-large;}
+
+h1, p {
+    margin-left: 20px;}
+
+ul {
+    text-align: center;
+    list-style-position: inside;
+}
+
+p.copyright {
+    font-style: italic;
+    font-size: medium;}
