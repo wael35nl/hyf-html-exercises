@@ -298,8 +298,8 @@ footer p {
         grid-template-areas: "header header header";
     }
     #flex-2 {
-        margin-left: 39%;
         grid-area: header;
+        text-align: center;
     }
     footer p {
         line-height: 30px;
@@ -359,7 +359,7 @@ footer p {
         grid-row-gap: 20px;
     }
     #flex-2 {
-        margin-left: 35%;
+        text-align: center;
     }
     .footer-text {
         flex-direction: column;
