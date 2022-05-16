@@ -26,7 +26,7 @@ header {
 }
 
 .nav-bar img {
-    width: 9%;
+    width: 10%;
 }
 
 .nav-ul {
@@ -45,6 +45,10 @@ header {
 
 .nav-ul a {
     text-decoration: none;
+}
+
+.nav-ul a:visited {
+    color: black;
 }
 
 .nav-ul a:hover {
@@ -122,6 +126,10 @@ header {
     text-decoration: none;
     padding-top: 3px;
     color: white;
+}
+
+.fa-sort-desc {
+    color: black;
 }
 
 .fa-facebook {
@@ -239,15 +247,24 @@ footer p {
 
 @media (min-width: 515px) and (max-width: 960px) {
     .nav-bar {
-        justify-content: flex-start;
-        gap: 1%;
+        justify-content: space-around;
+        align-items: center;
     }
     .nav-bar img {
-        width: 13.5%;
+        width: 15%;
     }
     .nav-ul {
-        width: 90%;
-        font-size: 0.7rem;
+        display: none;
+    }
+    .line {
+        display: flex;
+        flex-direction: column;
+    }
+    .line span {
+        width: 25px;
+        height: 3px;
+        background-color: black;
+        margin: 1px 0;
     }
     .main-section {
         display: flex;
@@ -273,8 +290,16 @@ footer p {
         width: 50%;
     }
     .article-2 {
-        padding: 35px;
+        padding: 10px 0px;
         font-size: 1rem;
+        display: grid;
+        grid-template-columns: repeat(3);
+        grid-row-gap: 20px;
+        grid-template-areas: "header header header";
+    }
+    #flex-2 {
+        margin-left: 39%;
+        grid-area: header;
     }
     footer p {
         line-height: 30px;
@@ -283,12 +308,13 @@ footer p {
 }
 
 @media (min-width: 240px) and (max-width: 515px) {
+  
     .nav-bar {
         justify-content: space-around;
         align-items: center;
     }
     .nav-bar img {
-        width: 18%;
+        width: 20%;
     }
     .nav-ul {
         display: none;
@@ -296,13 +322,12 @@ footer p {
     .line {
         display: flex;
         flex-direction: column;
-        margin: 5px 0;
     }
     .line span {
-        width: 25px;
-        height: 3px;
+        width: 20px;
+        height: 2px;
         background-color: black;
-        margin: 2px 0;
+        margin: 1px 0;
     }
     .main-section {
         display: flex;
@@ -327,8 +352,14 @@ footer p {
         width: 50%;
     }
     .article-2 {
-        padding: 20px;
-        font-size: 0.5rem;
+        padding: 10px 0px;
+        font-size: 1rem;
+        display: grid;
+        grid-template-columns: repeat(3);
+        grid-row-gap: 20px;
+    }
+    #flex-2 {
+        margin-left: 35%;
     }
     .footer-text {
         flex-direction: column;
