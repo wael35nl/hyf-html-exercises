@@ -354,11 +354,11 @@ footer p {
     .article-2 {
         padding: 10px 0px;
         font-size: 1rem;
-        display: grid;
-        grid-template-columns: repeat(3);
-        grid-row-gap: 20px;
+        flex-direction: column;
+        gap: 15px;
     }
     #flex-2 {
+        margin-bottom: 20px;
         text-align: center;
     }
     .footer-text {
