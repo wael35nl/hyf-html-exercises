@@ -7,7 +7,7 @@ everything with **(HW)** is from the homework
 ### Week 1
 
 - The-bird-challenge: https://wael35nl.github.io/hyf-html-exercises/week-1/1.The-bird-challenge/
-- The-CLI-challenge-**(HW)**: https://github.com/wael35nl/hyf-html-exercises/blob/main/week-1/2.The-CLI-challenge-(HW)/cli%20challenge.txt
+- The-CLI-challenge-**(HW)**: https://github.com/wael35nl/hyf-html-exercises/blob/main/week-1/2.The-CLI-challenge-(HW)/cli-challenge.txt
 - Css-challenges
   - challenge-1: https://wael35nl.github.io/hyf-html-exercises/week-1/3.CSS-challenges/challenge-1/
   - challenge-2: https://wael35nl.github.io/hyf-html-exercises/week-1/3.CSS-challenges/challenge-2/
